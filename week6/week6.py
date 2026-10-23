@@ -26,7 +26,7 @@
 # def drawEquitriangle(someturtle, somesize):
 #     drawPoly(someturtle, 3, somesize)
 #
-# def drawStar(someturtle, size):
+def drawStar(someturtle, size):
 #    for i in range(5):
 #         someturtle.forward(size)
 #         someturtle.left(144)
