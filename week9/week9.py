@@ -62,7 +62,7 @@ def substitution_cipher(message, mapping):
         index = alphabet.find(char.lower())
         if index == -1:
             encrypted_message += char
-        elif char.isupper():
+        # elif char.isupper():
             encrypted_message = encrypted_message + mapping[index].upper()
         else:
             encrypted_message = encrypted_message + mapping[index].lower()
