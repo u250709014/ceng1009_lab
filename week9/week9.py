@@ -46,7 +46,7 @@ print(reserve("abcd"))
 
 def reverse_slice(s):
     return s[::-1]
-print(reverse_slice("hello"))
+# print(reverse_slice("hello"))
 
 
 #
