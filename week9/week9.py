@@ -51,7 +51,7 @@ def reverse_slice(s):
 
 #
 def remove_all_occurrences(string, substring):
-    return string.replace(substring, "")
+    # return string.replace(substring, "")
 print(remove_all_occurrences("hello world", "hello"))
 
 def substitution_cipher(message, mapping):
