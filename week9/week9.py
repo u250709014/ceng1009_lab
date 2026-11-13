@@ -53,7 +53,7 @@ print(reverse_slice("hello"))
 def remove_all_occurrences(string, substring):
     return string.replace(substring, "")
 print(remove_all_occurrences("hello world", "hello"))
-#
+
 def substitution_cipher(message, mapping):
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     encrypted_message = ""
@@ -63,9 +63,9 @@ def substitution_cipher(message, mapping):
         if index == -1:
             encrypted_message += char
         elif char.isupper():
-            encrypted_message = result + mapping[index].upper()
+            encrypted_message = encrypted_message + mapping[index].upper()
         else:
-            encrypted_message = result + mapping[index].lower()
+            encrypted_message = encrypted_message + mapping[index].lower()
     return encrypted_message
 
 mapping = "QTGABCDEFHIJKLMNOPRSUVWXYZ"
