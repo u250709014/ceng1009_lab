@@ -4,7 +4,7 @@
 #     else:
 #         return False
 #
-# print(is_odd(5))
+print(is_odd(5))
 # # from unittest import result
 # #
 # #
